@@ -1,7 +1,23 @@
 @import "../styles";
-
-div{
-    position: absolute;
-    top: calc(50% - 271px);
-    margin-left: calc(50% - 490px);
+.center-img {
+    .logo {
+        position: absolute;
+        top: calc(50% - 271px);
+        margin-left: calc(50% - 490px);
+        .fork-img {
+            position: absolute;
+            bottom:93px;
+            left:217px;
+        }
+        .dot-img {
+            position: absolute;
+            top: 162px;
+            left: 430px;
+        }
+        .enter-img {
+            position: absolute;
+            bottom: 10%;
+            left: calc(50% - 54px);
+        }
+    }
 }

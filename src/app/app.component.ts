@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+  // UI PROPERTIES
+
+  // CLASS PROPERTIES
+
+  constructor() { }
+
+  // ANGULAR EVENTS
+
+  // UI EVENTS
+
+  // PUBLIC CLASS FUNCTIONS
+
+  // PRIVATE CLASS FUNCTIONS
 }
