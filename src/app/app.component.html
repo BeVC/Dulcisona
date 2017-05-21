@@ -1,15 +1,15 @@
 <div class="center-img">
   <div class="logo">
     <img src="../assets/images/intro/achtergrond.jpg" />
-    <div class="fork-img">
+    <div class="fork-img" (click)="uiOnForkClicked()">
       <img src="../assets/images/intro/stemvorktoetsNormaal.jpg" onmouseover="this.src='../assets/images/intro/stemvorktoetsOver.jpg'"
         onmouseout="this.src='../assets/images/intro/stemvorktoetsNormaal.jpg'" />
     </div>
-    <div class="dot-img">
+    <div class="dot-img" (click)="uiOnDotClicked()">
       <img src="../assets/images/intro/stiptoetsNormaal.jpg" onmouseover="this.src='../assets/images/intro/stiptoetsOver.jpg'"
         onmouseout="this.src='../assets/images/intro/stiptoetsNormaal.jpg'" />
     </div>
-    <div class="enter-img">
+    <div class="enter-img" (click)="uiOnEnterClicked()">
       <img src="../assets/images/intro/entertoetsNormaal.jpg" onmouseover="this.src='../assets/images/intro/entertoetsOver.jpg'"
         onmouseout="this.src='../assets/images/intro/entertoetsNormaal.jpg'" />
     </div>

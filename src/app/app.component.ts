@@ -15,6 +15,17 @@ export class AppComponent {
   // ANGULAR EVENTS
 
   // UI EVENTS
+  uiOnForkClicked() {
+    console.log("fork clicked");
+  }
+
+  uiOnDotClicked() {
+    console.log("dot clicked");
+  }
+
+  uiOnEnterClicked() {
+    console.log("enter clicked");
+  }
 
   // PUBLIC CLASS FUNCTIONS
 
