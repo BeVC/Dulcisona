@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // UI PROPERTIES
+  hideFrontPage: boolean = false;
 
   // CLASS PROPERTIES
 
@@ -17,6 +18,7 @@ export class AppComponent {
   // UI EVENTS
   uiOnForkClicked() {
     console.log("fork clicked");
+    this.hideFrontPage = true;
   }
 
   uiOnDotClicked() {

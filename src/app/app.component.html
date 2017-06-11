@@ -1,7 +1,7 @@
-<div class="center-img">
+<div class="center-img" [hidden]=hideFrontPage>
   <div class="logo">
     <img src="../assets/images/intro/achtergrond.jpg" />
-    <div class="fork-img" (click)="uiOnForkClicked()">
+    <div class="fork-img" routerLink="/test" (click)="uiOnForkClicked()">
       <img src="../assets/images/intro/stemvorktoetsNormaal.jpg" onmouseover="this.src='../assets/images/intro/stemvorktoetsOver.jpg'"
         onmouseout="this.src='../assets/images/intro/stemvorktoetsNormaal.jpg'" />
     </div>
@@ -19,3 +19,5 @@
     <img src="" />
   </div>
 </div>
+
+<router-outlet></router-outlet>
