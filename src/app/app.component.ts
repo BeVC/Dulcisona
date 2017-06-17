@@ -23,10 +23,12 @@ export class AppComponent {
 
   uiOnDotClicked() {
     console.log("dot clicked");
+    this.hideFrontPage = true;
   }
 
   uiOnEnterClicked() {
     console.log("enter clicked");
+    this.hideFrontPage = true;
   }
 
   // PUBLIC CLASS FUNCTIONS

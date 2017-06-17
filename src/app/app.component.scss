@@ -6,8 +6,8 @@
         margin-left: calc(50% - 490px);
         .fork-img {
             position: absolute;
-            bottom:93px;
-            left:217px;
+            bottom: 93px;
+            left: 217px;
         }
         .dot-img {
             position: absolute;
@@ -19,5 +19,13 @@
             bottom: 10%;
             left: calc(50% - 54px);
         }
+    }
+}
+
+.page-wrapper {
+    .logo {
+        position: absolute;
+        top: calc(50% - 271px);
+        margin-left: calc(50% - 490px);
     }
 }
